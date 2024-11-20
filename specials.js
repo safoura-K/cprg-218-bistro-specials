@@ -1,7 +1,7 @@
 const curentDATE = new Date();
 console.log(curentDATE);
-/*let curentDay = curentDATE.getDay();*/
-let curentDay = 3;
+let curentDay = curentDATE.getDay();
+//let curentDay = 3;
 console.log(curentDay);/*counts from 0 to 6 where 0 is Sunday and 6 is Saturday*/
 
 if(curentDay == 0) {
